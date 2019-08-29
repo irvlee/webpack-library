@@ -1,9 +1,9 @@
-# webpack-karma
+# webpack-library
 
-a wbapck and karma unittest example
+produce a library and testing
 
 ## usage
 
 1. npm install
 
-2. npm run unit
+2. npm run lib
