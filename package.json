@@ -1,6 +1,6 @@
 {
   "name": "webpacklib",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "main": "index.js",
   "dependencies": {
     "eslint-plugin-html": "^6.0.0",
@@ -28,7 +28,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "rm -rf build/* && webpack --config webpack.config.js",
     "unit": "rm -rf coverage/* && karma start",
-    "lib":"webpack --config webpack.config.dev.js && npm run unit"
+    "lib": "webpack --config webpack.config.dev.js && npm run unit"
   },
   "keywords": [],
   "author": "",
